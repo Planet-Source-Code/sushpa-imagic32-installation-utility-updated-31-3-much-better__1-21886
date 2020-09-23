@@ -1,0 +1,21 @@
+[Setup]
+TotalFiles=1
+TextFont=Tahoma
+TitleFont=Verdana
+Copyright=(C) Sushant Pandurangi, 2000-2001. (http://sushantshome.tripod.com)
+DefaultPath=C:\Program Files\Install\Path\Dummy\Path
+;BELOW: Whether or not to create a shortcut, 1 for yes, 0 for no
+Shortcut=1
+ShortcutName=ClickThis
+ShortcutFile=File1
+;BELOW: specify the name of the readme file. Must be in the same folder as the setup 
+;program. Here I say module.bas, it will be displayed in the readme window when you run 
+;it from VB.
+Readme=module.bas
+ReadmeTitle=End-user License Agreement for Dummies Corp.
+Title=DummyWare Demo 1.0
+TitleBold=0
+TitleItalic=1
+[File1]
+Source=c:\windows\notepad.exe
+Destination=c:\notepad.exe
